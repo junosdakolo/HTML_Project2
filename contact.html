@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Reservation</title>
+</head>
+
+<body>
+    <h1>Book Your Reservation</h1>
+
+    <p>To book a reservation, please fill out the form below, and we’ll get back to you as soon as possible.</p>
+
+    <form action="submit_reservation.html" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="date">Reservation Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Reservation Time:</label><br>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="guests">Number of Guests:</label><br>
+        <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+        <label for="request">Any Special Request:</label><br>
+        <input type="text" id="request" name="request" ><br><br>
+
+        <input type="submit" value="Submit Reservation">
+    </form>
+
+    <p><a href="index.html">Return to ASAP Menu</a></p>
+</body>
+
+</html>
